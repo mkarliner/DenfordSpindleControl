@@ -39,7 +39,7 @@ void samplePot() {
   int val, speed;
   val = analogRead(SPEED_POT_PIN);
   delayMicros = map(val, 0, 1100, 500, 10); 
-  Serial.println(val);
+  //Serial.println(delayMicros);
 }
 
 
